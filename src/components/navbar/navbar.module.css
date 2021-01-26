@@ -1,0 +1,180 @@
+
+/* * {
+  font-family: "Avenir",'Proxima Nova';
+} */
+
+li a.navlink.nvlink{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+   font-size: 1.8rem;
+   }
+   
+   li a.navlink.nvbtn{
+     font-family: 'Proxima Nova' ;
+     font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    }
+   
+   li a.navlink  img{
+     width: 25px;
+   }
+   
+   
+   nav {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 4rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: .5rem 2rem .5rem 3rem;
+     /* background: rgba(255, 255, 255, 0.4); */
+     background: transparent;
+     z-index: 2;
+     margin-top: 3vh;
+   }
+   
+   .nav-brand {
+     width: 8rem;
+     margin-right: 15vw;
+     margin-left: 5vw;
+   }
+   
+   .nav-list {
+     width: 25rem;
+     height: 100vh;
+     background-color: #3546AC;
+     position: fixed;
+     top: 0;
+     right: -26rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     transition: all 200ms ease-in-out;
+   }
+   
+   .nav-list.active {
+     right: 0;
+   }
+   
+   .nav-list:hover {
+     right: 0;
+   }
+   
+   
+   .sub-nav {
+     position: absolute;
+     background: rgba(255, 255, 255, 0.9);
+     padding: .3rem 1rem;
+     width: 25rem;
+     margin-top: 17px;
+     margin-left: -7rem;
+     visibility: hidden;
+     opacity: 0;
+   }
+   
+   
+   .nested-nav-container:hover .sub-nav {
+     visibility: visible;
+     opacity: 1;
+   }
+   
+   .close {
+     position: absolute;
+     top: 1rem;
+     left: 1.5rem;
+   }
+   
+   .nav-item {
+     margin: 2rem 0;
+   }
+   
+   .navlink {
+     font-size: 1.8rem;
+     color: #FFFFFF ;
+   }
+   
+   .navlink:hover{
+     color: rgba(220, 211, 216, 0.7);
+     text-decoration: none;
+   }
+   
+   @media screen and (min-width: 750px) {
+     nav {
+       height: 6rem;
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
+       /* z-index: 3; */
+     }
+   
+     nav .add-menu-float{
+       flex: 1;
+       justify-content: flex-end;
+     }
+   
+     .nav-brand {
+       width: 13rem;
+     }
+   
+     .nav-list {
+       width: initial;
+       height: initial;
+       background-color: transparent;
+       position: initial;
+       top: initial;
+       right: initial;
+       flex-direction: row;
+       transition: initial;
+     }
+   
+     .menu-icons {
+       display: none;
+     }
+   
+     .nav-item {
+       margin: 0 1rem;
+     }
+     
+     .navlink.selected {
+       /* font-size: 1.8rem;
+       position: relative; */
+       font-weight: 600;
+       /* font-family: 'Proxima Nova';
+    font-style: normal; */
+       /* color: #812457; */
+       /* color: #4CB952; */
+     }
+   
+     .navlink:hover {
+       color: #4CB952;
+       font-weight: 600;
+       text-decoration: none;
+     }
+   
+     .navlink::before,
+     .selected::before {
+       content: "";
+       position: absolute;
+       left: 0;
+       bottom: -.1rem;
+       /* background: #812457; */
+       width: 100%;
+       height: 2px;
+       transform: scaleX(0);
+       transform-origin: left;
+       transition: transform 650ms;
+     }
+   
+     .selected::before {
+       transform: scaleX(1);
+     }
+   
+     .navlink:hover::before {
+       transform: scaleX(1);
+     }
+   }

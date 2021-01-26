@@ -1,0 +1,51 @@
+main .bs{
+    /* background: #E5E5E5; */
+    margin: 3rem 0px;
+}
+
+.remPadLR {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fzC{
+color: #DDDDDD;
+}
+
+h4.serviceTitle {
+    font-weight: 800;
+}
+
+.serviceContent{
+    font-weight: 500;
+    min-height: 126px;
+}
+
+.fz18 {
+    font-size: 18px;
+}
+.borderRad{
+    border-radius: 5px;
+}
+
+/*  image to expand */
+.flexFloatRight{
+    justify-content: flex-end;
+    display: flex;
+}
+.innerImg {
+    transition: 0.3s;
+}
+
+.innerImg:hover {
+    transform: scale(1.2);
+  }
+
+  .imgWrapper {  
+    /* width: 400px;
+    height: 400px; */
+    overflow: hidden; 
+  }
+
+
+

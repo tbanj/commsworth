@@ -1,0 +1,85 @@
+ .slidepro{
+    max-width: 527px;
+    /* height: auto; */
+}
+#imgSlide1{
+    background-image: url('../../assets/mask-up.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+    /* width: 100%;
+    height: 100%  */
+}
+
+.contentPlacement {
+    /* position: absolute;
+  top: 42%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%); */
+  width: inherit;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contentPlacePro{
+    width: inherit;
+    position: relative;
+    height: 100%;
+}
+.posContentPlacePro{
+    position: absolute;
+  top: 42%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%); 
+}
+
+.projectTitle{
+    font-weight: 900;
+font-size: 48px;
+line-height: 124.3%;
+letter-spacing: 0.02em;
+word-wrap: break-word;
+}
+
+#imgSlide2{
+    background-image: url('../../assets/save-child.png');
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% */
+    width: 100%;
+    height: 100% 
+}
+
+
+#imgSlide3{
+    background-image: url('../../assets/sera.png');
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% */
+    width: 100%;
+    height: 100% 
+}
+
+
+#imgSlide4{
+    background: rgba(0, 0, 0, 0.5); 
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% */
+    width: 100%;
+    height: 100% 
+}

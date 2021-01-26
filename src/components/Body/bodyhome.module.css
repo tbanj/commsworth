@@ -1,0 +1,85 @@
+#abtDash {
+  width: 39px;
+height: 4px;
+background: #3546AC;
+}
+
+.truBlue{
+  background: #3546AC;
+}
+
+.fz20 {
+  font-size: 20px;
+}
+
+.fz24 {
+  font-size: 24px;
+}
+
+.centerD {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.fClr{
+  color: #3546AC;
+}
+
+.fontAvenir{
+  font-style: normal;
+  font-family: 'Avenir';
+}
+
+.fClr.about {
+font-weight: 900;
+line-height: 27px;
+letter-spacing: 0.15em;
+}
+
+.fontProN{
+  font-family: 'Proxima Nova';
+  font-style: normal;
+}
+
+.aboutContent {
+  /* font-weight: 600; */
+  /* font-size: 20px; */
+  line-height: 181.6%;
+  letter-spacing: 0.01em;
+}
+
+.fClrDark {
+  color: #3A3A3A;
+}
+
+main #aboutSec {
+  background: #F8F8F8;
+  padding: 2.5rem 0 5rem;
+
+}
+/* 
+p.storyContent{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+line-height: 181.6%;
+letter-spacing: 0.01em;
+} */
+
+img#ImgOurStory2 {
+  max-width: 50%;
+    float: right;
+} 
+
+/* .{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+} */
+@media screen and (max-width: 600px) {
+  img#ImgOurStory2 {
+    max-width: 100%;
+      float: none;
+  } 
+}

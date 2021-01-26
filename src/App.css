@@ -1,0 +1,97 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Proxima+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Avenir&display=swap"); */
+
+
+/* global styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+* {
+  font-family: 'Avenir', 'Proxima Nova' ;
+  font-style: normal;
+}
+
+html {
+ /* font-family: 'Avenir', sans-serif; */
+ font-family: 'Avenir','Proxima Nova', ;
+ font-size: 10px; 
+ box-sizing: border-box
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 1.6rem
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 1rem 0;
+  width: 100%;
+}
+
+
+
+.white-link {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.white-link:hover {
+  color: #c2b8b8;
+  text-decoration: none;
+
+}
+
+.red-border {
+  border: 1px solid red;
+  height: 10vh;
+  
+}
+
+.blue-bg {
+  background: lightblue;
+}
+
+.excellent-red {
+  color: #812457;
+}
+
+
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #3498db;
+  width: 12px;
+  height: 12px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

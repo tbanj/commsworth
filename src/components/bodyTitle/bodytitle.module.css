@@ -1,0 +1,18 @@
+/* * {
+  font-family: "Avenir";
+  font-style: normal;
+} */
+
+.fClr.about {
+    font-style: normal;
+    font-family: 'Avenir';
+  font-weight: 900;
+  line-height: 27px;
+  letter-spacing: 0.15em;
+  }
+
+  #abtDash {
+    width: 39px;
+  height: 4px;
+  /* margin-bottom: 5px; */
+  }

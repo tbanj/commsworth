@@ -1,0 +1,58 @@
+.downExpect{
+    font-size: 20px;
+      padding-left: 10px;
+      color: #4CB952;
+      transform: scale(.8, 1);
+  }
+
+
+
+.caption{
+    /* top: 25%;
+    text-align: center; */
+    top: 25%;
+    text-align: start;
+    left: 8%;
+  }
+  
+  .caption h3{
+    font-size: 4vw;
+    margin-bottom: 1rem;
+    max-width: 550px;
+    font-weight: 500;
+    color: #F8F8F8;
+  } 
+  /* .carousel-indicators .active {
+    background-color: #4CB952;
+  } */
+  .caption p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    max-width: 670px;
+    color: #F8F8F8;
+    font-family: "Proxima Nova";
+    margin-top: 4vh;
+  } 
+  /* .down-expect{
+    font-size: 20px;
+      padding-left: 10px;
+      transform: scale(.8, 1);
+  } */
+  
+  
+  a.caption  {
+    border-bottom: 2px solid #4CB952 !important;
+      padding-left: 0px;
+      padding-right: 0px;
+      font-family: "Proxima Nova" ;
+      font-weight: bold;
+      
+    color: #4CB952;
+  }
+  a.linkCaption {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+a:hover {
+  text-decoration: none;
+  }
