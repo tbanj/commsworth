@@ -1,3 +1,5 @@
+
+ 
  .slidepro{
     max-width: 527px;
     /* height: auto; */
@@ -6,7 +8,7 @@
 .fl1 {
     flex: 1;
   }
-  
+
 #imgSlide1{
     background-image: url('../../assets/mask-up.png');
     position: absolute;
@@ -46,20 +48,7 @@
   -ms-transform: translate(-50%,-50%); 
 }
 
-.projectTitle{
-    font-weight: 900;
-font-size: 48px;
-line-height: 124.3%;
-letter-spacing: 0.02em;
-word-wrap: break-word;
-}
 
-.projectContent{
-    font-weight: 500;
-font-size: 24px;
-line-height: 151.1%;
-letter-spacing: 0.02em
-}
 
 #imgSlide2{
     background-image: url('../../assets/save-child.png');
@@ -95,3 +84,101 @@ letter-spacing: 0.02em
     width: 100%;
     height: 100% 
 }
+
+
+
+
+@media only screen and (min-width: 992px) {
+    .bigscreenProject {
+        display: block !important;
+        min-height: 815px;
+    }
+
+    .mobileProject {
+    display: none !important;
+}
+
+.projectTitle{
+    font-weight: 900;
+font-size: 48px;
+line-height: 124.3%;
+letter-spacing: 0.02em;
+word-wrap: break-word;
+}
+}
+
+@media only screen and (min-width: 527px) {
+    .mobileProject {
+        display: block;
+        min-height: 815px;
+    }
+
+    .bigscreenProject {
+        display: none;
+    }
+
+    .mobileMiniProject {
+        display: none;
+    }
+
+.projectTitle{
+    font-weight: 900;
+font-size: 48px;
+line-height: 124.3%;
+letter-spacing: 0.02em;
+word-wrap: break-word;
+}
+
+
+.projectContent{
+    font-weight: 500;
+font-size: 24px;
+line-height: 151.1%;
+letter-spacing: 0.02em
+}
+}
+
+@media only screen and (max-width: 527px) {
+    .mobileProject {
+        display: none;
+    }
+
+    .bigscreenProject {
+        display: none;
+    }
+
+    .mobileMiniProject {
+        display: block;
+    }
+
+    .mobileMiniBG{
+        background-image: url('../../assets/imgslide-overlay.png');
+        min-height: 300px;
+        min-width: 400px;
+    }
+
+    .projectTitle{
+    font-weight: 900;
+        
+    line-height: 124.3%;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;
+    }
+
+    .projectContent{
+    font-weight: 500;
+
+    line-height: 151.1%;
+    letter-spacing: 0.02em
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    
+  }
+
+  @media screen and (max-width: 400px) {
+
+  }
