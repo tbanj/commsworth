@@ -2,6 +2,11 @@
     max-width: 527px;
     /* height: auto; */
 }
+
+.fl1 {
+    flex: 1;
+  }
+  
 #imgSlide1{
     background-image: url('../../assets/mask-up.png');
     position: absolute;
@@ -34,7 +39,7 @@
 }
 .posContentPlacePro{
     position: absolute;
-  top: 42%;
+  top: 63%;
   left: 50%;
   color: white;
   transform: translate(-50%,-50%);
@@ -47,6 +52,13 @@ font-size: 48px;
 line-height: 124.3%;
 letter-spacing: 0.02em;
 word-wrap: break-word;
+}
+
+.projectContent{
+    font-weight: 500;
+font-size: 24px;
+line-height: 151.1%;
+letter-spacing: 0.02em
 }
 
 #imgSlide2{

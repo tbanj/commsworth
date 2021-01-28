@@ -6,10 +6,12 @@ import logo from '../../assets/logo_2.svg';
 import rightArrow from '../../assets/right-arrow.svg';
 
 import navbarCss from './navbar.module.css';
+import indexCss from '../../assets/css/index.module.css';
 import './navbarcss.css';
 
 const Navbar = () => {
-  const { navlink, nvlink, nvbtn } = navbarCss;
+  const { navlink, nvlink } = navbarCss;
+  const { nvbtn } = indexCss;
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);

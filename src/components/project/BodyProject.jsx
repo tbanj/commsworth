@@ -6,12 +6,15 @@ import { mousefile } from './mousefile';
 import maskUp from '../../assets/mask-up.png';
 import saveChild from '../../assets/save-child.png';
 import sera from '../../assets/sera.png';
+import rightArrow from '../../assets/right-arrow.svg';
 import bodyPoject from './bodypoject.module.css';
+import indexCss from '../../assets/css/index.module.css';
 class BodyPoject extends Component {
 
     render() {
         const { slidepro, imgSlide1, imgSlide2, imgSlide3, imgSlide4, contentPlacement,
-            projectTitle, contentPlacePro, posContentPlacePro } = bodyPoject;
+            projectTitle, contentPlacePro, posContentPlacePro, projectContent, fl1 } = bodyPoject;
+        const { remPadLR, nvbtn } = indexCss;
         return (
             <Fragment>
                 <BodyTitle content={"OUR PROJECTS"} />
@@ -21,15 +24,20 @@ class BodyPoject extends Component {
                     <div id="parent">
                         <div id="propertyThumbnails">
 
-                            <div id="slide1" className="eachSlide mr-4">
+                            <div id="slide1" className={`eachSlide mr-4 ${fl1}`}>
                                 <div id="imgslide-overlay1" className="mr-4" >
-                                    <div className={`text-white   ${contentPlacement}`} id="text1">
-                                        <div className="w-100">
-                                            <h1 className={`text-center text-wrap ${projectTitle}`}>
-                                                Mask up
-                                                Initiaitve
-                                                by Nestle
+
+                                    <div className={`text-white   ${contentPlacePro}`} id="text1">
+                                        <div className={`w-100 ${posContentPlacePro}`}>
+                                            <div className={`col-md-10 offset-md-1 ${remPadLR}`}>
+                                                <h1 className={`text-wrap ${projectTitle}`}>
+                                                    Mask up
+                                                    Initiaitve
+                                                    by Nestle
                                                 </h1>
+
+                                                <h4 className={`${projectContent} text-wrap text-white pt-3`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget integer ornare nulla aliquam commodo dolor nec. Egestas faucibus ut lorem lectus vel amet. Vulputate sit vitae sit quam mattis.</h4>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -41,13 +49,18 @@ class BodyPoject extends Component {
 
                                 </Suspense>
                             </div>
-                            <div id="slide2" className="eachSlide">
+                            <div id="slide2" className={`eachSlide ${fl1}`}>
                                 <div id="imgslide-overlay2" >
-                                    <div className={`text-white   ${contentPlacePro}`} id="text1">
+                                    <div className={`text-white   ${contentPlacePro}`} id="text2">
                                         <div className={`w-100 ${posContentPlacePro}`}>
-                                            <h1 className={`text-center text-wrap ${projectTitle}`}>
-                                                dddddddiiiiiiiiiiiiiiiiiiiiiiiijjjjjiiiiiiiiiiiiiiiiiiiiiiiijjjjj
+                                            <div className={`col-md-10 offset-md-1 ${remPadLR}`}>
+                                                <h1 className={`text-wrap ${projectTitle}`}>
+                                                    Save the Children initiative powered by Chevron
                                                 </h1>
+                                                <h4 className={`${projectContent} text-wrap text-white pt-3`}>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra pellentesque quam iaculis imperdiet. Mollis nisi ac ultrices amet urna interdum proin lobortis. Lobortis tristique faucibus tellus ac amet.
+                                                </h4>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -59,15 +72,18 @@ class BodyPoject extends Component {
 
                                 </Suspense>
                             </div>
-                            <div id="slide3" className="eachSlide mr-4">
+                            <div id="slide3" className={`eachSlide mr-4 ${fl1}`}>
                                 <div id="imgslide-overlay3" className="mr-4">
-                                    <div className={`text-white   ${contentPlacement}`} id="text1">
-                                        <div className="w-100">
-                                            <h1 className={`text-center text-wrap ${projectTitle}`}>
-                                                Mask up
-                                                Initiaitve
-                                                by Nestle
+                                    <div className={`text-white   ${contentPlacePro}`} id="text3">
+                                        <div className={`w-100 ${posContentPlacePro}`}>
+                                            <div className={`col-md-10 offset-md-1 ${remPadLR}`}>
+                                                <h1 className={`text-wrap ${projectTitle}`}>
+                                                    14th Edition of The SERAS CSR Awards.
                                                 </h1>
+                                                <h4 className={`${projectContent} text-wrap text-white pt-3`}>
+                                                    The SERAS is an acronym for Sustainability, Entrepreneurship and Responsibility Awards. The Story of The SERAS began in 2007 when the very first edition held at Lagos, Nigeria.
+                                                </h4>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -78,15 +94,18 @@ class BodyPoject extends Component {
 
                                 </Suspense>
                             </div>
-                            <div id="slide4" className="eachSlide ">
+                            <div id="slide4" className={`eachSlide ${fl1}`} >
                                 <div id="imgslide-overlay4">
-                                    <div className={`text-white   ${contentPlacement}`} id="text1">
-                                        <div className="w-100">
-                                            <h1 className={`text-center text-wrap ${projectTitle}`}>
-                                                Mask up
-                                                Initiaitve
-                                                by Nestle
+                                    <div className={`text-white   ${contentPlacePro}`} id="text4">
+                                        <div className={`w-100 ${posContentPlacePro}`}>
+                                            <div className={`col-md-10 offset-md-1 ${remPadLR}`}>
+                                                <h1 className={`text-wrap ${projectTitle} `}>
+                                                    Mask up Initiaitve by Nestle
                                                 </h1>
+                                                <h4 className={`${projectContent} text-wrap text-white pt-3`}>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget integer ornare nulla aliquam commodo dolor nec. Egestas faucibus ut lorem lectus vel amet. Vulputate sit vitae sit quam mattis.
+                                                </h4>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -103,6 +122,10 @@ class BodyPoject extends Component {
                         </div>
                     </div>
                 </div>
+
+                {/* <div>
+                    <a exact to="/projects" className={` ${nvbtn} btn btn-success`}> VIEW ALL PROJECTS <span><img width='25' src={rightArrow} alt="right-arrow" /></span></a>
+                </div> */}
 
             </Fragment>
         );

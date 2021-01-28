@@ -82,6 +82,7 @@ const BodyHome = () => (
       {/* Our Projects */}
       <BodyProject />
 
+
       {/* <Fade bottom>
         <section id="pink-shade" className="quote-container">
           <div className="quote px-3">

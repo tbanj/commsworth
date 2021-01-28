@@ -9,12 +9,12 @@ li a.navlink.nvlink{
    font-size: 1.8rem;
    }
    
-   li a.navlink.nvbtn{
+   /* li a.navlink.nvbtn{
      font-family: 'Proxima Nova' ;
      font-style: normal;
     font-weight: 700;
     font-size: 1.6rem;
-    }
+    } */
    
    li a.navlink  img{
      width: 25px;

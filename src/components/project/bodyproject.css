@@ -1,16 +1,21 @@
 
 .my-doos {
-	/* width:1200px; */
+	width:100%;
 	margin: auto;
 	height:200px;	
 }
+.fl1 {
+  flex: 1;
+}
+
 #parent {
-  position: relative;
+  /* position: relative; */
   margin: 0 auto;
   width: 100%;
   /* background: #ddd; */
 }
 #propertyThumbnails {
+  display: flex;
   position: relative;
   overflow: hidden;
   /* background: #444; */

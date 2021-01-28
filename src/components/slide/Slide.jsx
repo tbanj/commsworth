@@ -46,9 +46,9 @@ const Slide = () => (
 
       </Carousel.Caption>
     </Carousel.Item>
-    <Carousel.Item className="carouselitem">
-      <div id="carousel-overlay" onclick="off()">
-        <div id="text">Overlay Text</div>
+    {/* <Carousel.Item className="carouselitem">
+      <div id="carousel-overlay" >
+        <div id="text"></div>
       </div>
 
       <Suspense fallback={<div class="loader"></div>}>
@@ -69,7 +69,7 @@ const Slide = () => (
           <div className="down-expect">&rarr;</div>
         </div>
       </Carousel.Caption>
-    </Carousel.Item>
+    </Carousel.Item> */}
 
   </Carousel >
 );

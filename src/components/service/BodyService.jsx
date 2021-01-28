@@ -8,11 +8,13 @@ import engageServ from '../../assets/engage-design.png';
 import strategyServ from '../../assets/strategy.png';
 import bodyCss from '../Body/bodyhome.module.css';
 import actionLinkCss from '../actionLink/actionlink.module.css';
-import bodyServCss from './bodyService.module.css'
+import bodyServCss from './bodyService.module.css';
+import indexCss from '../../assets/css/index.module.css';
 
-const { bs, remPadLR, fzC, serviceTitle, fz18, serviceContent, borderRad, flexFloatRight, imgWrapper, innerImg } = bodyServCss;
+const { bs, fzC, serviceTitle, fz18, serviceContent, borderRad, flexFloatRight, imgWrapper, innerImg } = bodyServCss;
 const { fz20, centerD, fClr, aboutContent, fClrDark, truBlue, fz24, fontProN, fontAvenir } = bodyCss;
 const { downExpect } = actionLinkCss;
+const { remPadLR } = indexCss;
 const BodyService = () => (
     <Fragment>
         <section className={bs}>
