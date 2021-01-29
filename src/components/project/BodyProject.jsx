@@ -274,9 +274,19 @@ class BodyPoject extends Component {
 
 
                 <div className="clearfix"></div>
-                <div className="text-center">
-                    <Link exact to="/projects" className={` ${nvbtn} btn btn-success`}> VIEW ALL PROJECTS <span><img width='25' src={rightArrow} alt="right-arrow" /></span></Link>
+                {/* <div className="text-center">
+                    <a className="learn" href="!#">Learn more <img src={rightArrow} alt="right-arrow" /></a>
+                </div> */}
+                <div className="text-center mt-5">
+                    <Link exact to="/projects" className={` ${nvbtn} btn btn-success btnProjects`}> VIEW ALL PROJECTS
+                    {/* <span><img width='25' src={rightArrow} alt="right-arrow" /></span> */}
+                        {/* <div className="arrowParent">
+                           
+                        </div> */}
+                        <img className="arrowLogo" src={rightArrow} alt="right-arrow" />
+                    </Link>
                 </div>
+
 
             </Fragment>
         );

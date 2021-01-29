@@ -135,3 +135,84 @@ div.scrollmenu a:hover {
     white-space: nowrap;
   }
 }
+
+ a.learn {
+  position: relative;
+  display: block;
+  font-size: 18px;
+ }
+
+  .learn img {
+    transition-timing-function: ease-out;
+    position: absolute;
+    right: -55px;
+    top: 2px;
+    /* width: -webkit-fill-available; */
+    font-size: 18px;
+    padding-left: 10px;
+    transition: margin-right 1s;
+  }
+
+  a.learn img:hover { 
+    margin-right: 15px;
+    transform: translateX(2px);
+    color: red;
+  }
+
+  /*  */
+  .btnProjects{
+    position: relative;
+    padding-right: 45px;
+    transition-timing-function: ease-out;
+    /* position: absolute;
+    right: -55px;
+    top: 2px; */
+    /* width: -webkit-fill-available; */
+    /* font-size: 18px;
+    padding-left: 10px; */
+    transition: left 1s;
+  }
+
+  .arrowParent{
+    position: absolute;
+    top: 2px;
+    /* left: 175px; */
+    right: 0;
+    transition-timing-function: ease-out;
+    /* position: absolute;
+    right: -55px;
+    top: 2px; */
+    /* width: -webkit-fill-available; */
+    /* font-size: 18px;
+    padding-left: 10px; */
+    transition: left 1s;
+  }
+
+  img.arrowLogo{
+    width: 20px;
+    margin-left: 15px;
+    right: 0;
+    transition-timing-function: ease-out;
+    /* position: absolute;
+    right: -55px;
+    top: 2px; */
+    /* width: -webkit-fill-available; */
+    /* font-size: 18px;
+    padding-left: 10px; */
+    transition: left 1s;
+  }
+/* 
+  .arrowParent:hover { 
+    left: 162px;
+    transform: translateX(2px);
+  } */
+
+
+  a.btn-success :hover, .btn-success.disabled:hover {
+    background: #06d79c;
+    -webkit-box-shadow: 0 14px 26px -12px rgb(40 190 189 / 42%), 0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(40 190 189 / 20%);
+    box-shadow: 0 14px 26px -12px rgb(40 190 189 / 42%), 0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(40 190 189 / 20%);
+    border: 1px solid #06d79c;
+    margin-left: 0px !important;
+      transform: translateX(2px);
+  }
