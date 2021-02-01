@@ -11,6 +11,7 @@ import ourStory2 from '../../assets/our-story-2.png';
 import bodyCss from './bodyhome.module.css';
 import actionLinkCss from '../actionLink/actionlink.module.css';
 import Partners from '../partners/Partners';
+import Blog from '../blog/Blog';
 
 
 
@@ -85,6 +86,9 @@ const BodyHome = () => (
 
       {/* Partners */}
       <Partners />
+
+      {/* Blog Section */}
+      <Blog />
 
       {/* <Fade bottom>
         <section id="pink-shade" className="quote-container">

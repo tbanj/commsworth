@@ -1,0 +1,20 @@
+.blogSubTitle{
+    color: #C9C9C9;
+}
+
+.fz14 {
+    font-size: 14px;
+}
+
+.fz36 {
+    font-size: 36px;
+}
+
+.distributeDiv{
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
