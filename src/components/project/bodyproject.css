@@ -186,6 +186,6 @@ div.scrollmenu a:hover {
   }
   
   .btnProjects:hover  .arrowParent{ 
-    left: 132px;
+    left: 120px;
     transform: translateX(2px);
   }

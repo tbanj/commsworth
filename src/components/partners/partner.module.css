@@ -1,33 +1,63 @@
 .containerPartner {
     padding:3px;
     border:1px solid #e6e6e6;
-    width: 1000px;
+    /* width: 1000px; */
     overflow:hidden;
+    
+    
   }
   .marquee{
     display:block;
   position:relative;
   width: 100%;
-  height:160px;
+  /* height:160px; */
   /* animation-play-state: paused; */
+  animation-name: reverse; 
+            animation-duration: 10s; 
   padding:3px;
   }
   
   .containerPartner:hover .marquee{
       
-      animation:scroll 10s  infinite;
+      animation:scroll 10s  linear infinite;
   }
   
-  .img1 {
+  /* .img1 {
     width:150px;
     height:150px;
     background-color: red;
     margin:3px;
     float:left;
-  }
+  } */
   
   /* Make it move */
   @keyframes scroll{
   0% {left:-1000px;}
-  100% {left:900px;}
+  100% {left:1100px;}
   }
+
+
+  @keyframes reverse { 
+    0% {left:1100px;}
+    100% {left:-1000px;}
+} 
+
+
+div.minHeight {
+  min-height: 126%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+h4.testimonyContent{
+  font-weight: 800;
+  line-height: 158.6%;
+letter-spacing: 0.01em;
+}
+
+#imgPartnerAvatar{
+  max-width: 50%;
+    float: right;
+}

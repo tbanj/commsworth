@@ -11,8 +11,8 @@ import actionLinkCss from '../actionLink/actionlink.module.css';
 import bodyServCss from './bodyService.module.css';
 import indexCss from '../../assets/css/index.module.css';
 
-const { bs, fzC, serviceTitle, fz18, serviceContent, borderRad, flexFloatRight, imgWrapper, innerImg } = bodyServCss;
-const { fz20, centerD, fClr, aboutContent, fClrDark, truBlue, fz24, fontProN, fontAvenir, contentCrl } = bodyCss;
+const { bs, fzC, serviceTitle, serviceContent, borderRad, flexFloatRight, imgWrapper, innerImg } = bodyServCss;
+const { fz20, centerD, fClr, aboutContent, fz18, fClrDark, truBlue, fz24, fontProN, fontAvenir, contentCrl } = bodyCss;
 const { downExpect } = actionLinkCss;
 const { remPadLR } = indexCss;
 const BodyService = () => (

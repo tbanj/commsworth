@@ -12,6 +12,15 @@ background: #3546AC;
   font-size: 20px;
 }
 
+
+.fz18 {
+  font-size: 18px;
+}
+
+.fz16 {
+  font-size: 16px;
+}
+
 .fz24 {
   font-size: 24px;
 }
@@ -56,6 +65,11 @@ letter-spacing: 0.15em;
 .fClrDark {
   color: #3A3A3A;
 }
+
+.fClrLight{
+  color: #A3A3A3;
+}
+
 .trucontactBGLight{
   background: #F8F8F8;
 }
