@@ -1,0 +1,33 @@
+.containerPartner {
+    padding:3px;
+    border:1px solid #e6e6e6;
+    width: 1000px;
+    overflow:hidden;
+  }
+  .marquee{
+    display:block;
+  position:relative;
+  width: 100%;
+  height:160px;
+  /* animation-play-state: paused; */
+  padding:3px;
+  }
+  
+  .containerPartner:hover .marquee{
+      
+      animation:scroll 10s  infinite;
+  }
+  
+  .img1 {
+    width:150px;
+    height:150px;
+    background-color: red;
+    margin:3px;
+    float:left;
+  }
+  
+  /* Make it move */
+  @keyframes scroll{
+  0% {left:-1000px;}
+  100% {left:900px;}
+  }

@@ -53,8 +53,16 @@ const Navbar = () => {
             <NavLink exact to="/about" activeClassName="selected" className={`${navlink} ${nvlink}`}>Media</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink exact to="/contact" className={`${navlink} ${nvbtn} btn btn-success`}> CONTACT US <span><img width='25' src={rightArrow} alt="right-arrow" /></span></NavLink>
+            <NavLink exact to="/contact" className={` ${nvbtn} btn btn-success btnNav`}> CONTACT US
+            <div className="arrowParen">
+                <img className="arrowLogo" src={rightArrow} alt="right-arrow" />
+              </div></NavLink>
 
+            {/* <Link exact to="/projects" className={` ${nvbtn} btn btn-success btnProjects`}> VIEW ALL PROJECTS
+                        <div className="arrowParent">
+                            <img className="arrowLogo" src={rightArrow} alt="right-arrow" />
+                        </div>
+                    </Link> */}
           </li>
 
         </ul>

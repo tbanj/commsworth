@@ -26,6 +26,10 @@ background: #3546AC;
   color: #3546AC;
 }
 
+.contentCrl {
+  color: #575757;
+}
+
 .fontAvenir{
   font-style: normal;
   font-family: 'Avenir';
@@ -52,9 +56,11 @@ letter-spacing: 0.15em;
 .fClrDark {
   color: #3A3A3A;
 }
-
-main #aboutSec {
+.trucontactBGLight{
   background: #F8F8F8;
+}
+main #aboutSec {
+  
   padding: 2.5rem 0 5rem;
 
 }

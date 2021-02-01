@@ -12,7 +12,7 @@ import bodyServCss from './bodyService.module.css';
 import indexCss from '../../assets/css/index.module.css';
 
 const { bs, fzC, serviceTitle, fz18, serviceContent, borderRad, flexFloatRight, imgWrapper, innerImg } = bodyServCss;
-const { fz20, centerD, fClr, aboutContent, fClrDark, truBlue, fz24, fontProN, fontAvenir } = bodyCss;
+const { fz20, centerD, fClr, aboutContent, fClrDark, truBlue, fz24, fontProN, fontAvenir, contentCrl } = bodyCss;
 const { downExpect } = actionLinkCss;
 const { remPadLR } = indexCss;
 const BodyService = () => (
@@ -22,7 +22,7 @@ const BodyService = () => (
                 <section className={`d-flex `}>
                     <BodyTitle content={"OUR SERVICES"} />
                     <div style={{ flex: 7 }} className={`${centerD} ${aboutContent} ${fontProN} ${fClrDark}`}>
-                        <p className={` ${fontProN} ${fz20}`} style={{ width: "85%" }}>
+                        <p className={` ${fontProN} ${fz20} ${contentCrl}`} style={{ width: "85%" }}>
                             Our team seek to help your organization navigate this threshold that stands between your brands and distinctive innovations, and finding your brands inner sanctum.
                 </p>
                     </div>

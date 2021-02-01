@@ -198,3 +198,33 @@ a.btn-success {
     transform: scaleX(1);
   } */
 }
+
+
+
+.btnNav{
+  position: relative;
+  padding-right: 45px;
+  padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.arrowParen{
+  position: absolute;
+  top: 7px;
+  left: 95px;
+  right: 0;
+  transition-timing-function: ease-out;
+  transition: left 1s;
+}
+
+img.arrowLogo{
+  width: 20px;
+  margin-left: 15px;
+  right: 0;
+}
+
+.btnNav:hover  .arrowParen{ 
+  left: 72px;
+  transform: translateX(2px);
+}

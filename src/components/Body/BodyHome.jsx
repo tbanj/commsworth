@@ -10,17 +10,18 @@ import ourStory1 from '../../assets/our-story-1-12.png';
 import ourStory2 from '../../assets/our-story-2.png';
 import bodyCss from './bodyhome.module.css';
 import actionLinkCss from '../actionLink/actionlink.module.css';
+import Partners from '../partners/Partners';
 
 
 
 const { abtDash, fz20, fz24, centerD, fClr, about, aboutContent, fClrDark, aboutSec, ImgOurStory2, truBlue,
-  fontProN, fontAvenir } = bodyCss;
+  fontProN, fontAvenir, trucontactBGLight } = bodyCss;
 const { downExpect } = actionLinkCss;
 const BodyHome = () => (
   <Fragment>
     <main className={`body-home`}>
       {/* About US */}
-      <section id={aboutSec}>
+      <section id={aboutSec} className={trucontactBGLight}>
         <section className="col-md-10 offset-md-1">
           <section className={`d-flex `}>
             <BodyTitle content={"ABOUT US"} />
@@ -82,6 +83,8 @@ const BodyHome = () => (
       {/* Our Projects */}
       <BodyProject />
 
+      {/* Partners */}
+      <Partners />
 
       {/* <Fade bottom>
         <section id="pink-shade" className="quote-container">

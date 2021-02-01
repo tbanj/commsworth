@@ -279,11 +279,9 @@ class BodyPoject extends Component {
                 </div> */}
                 <div className="text-center mt-5">
                     <Link exact to="/projects" className={` ${nvbtn} btn btn-success btnProjects`}> VIEW ALL PROJECTS
-                    {/* <span><img width='25' src={rightArrow} alt="right-arrow" /></span> */}
-                        {/* <div className="arrowParent">
-                           
-                        </div> */}
-                        <img className="arrowLogo" src={rightArrow} alt="right-arrow" />
+                        <div className="arrowParent">
+                            <img className="arrowLogo" src={rightArrow} alt="right-arrow" />
+                        </div>
                     </Link>
                 </div>
 
