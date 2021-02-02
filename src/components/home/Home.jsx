@@ -18,7 +18,8 @@ const Home = () => (
     <HeaderHome />
     <BodyHome />
     {/* <BodyHome />
-    <Footer /> */}
+     */}
+    <Footer />
 
 
   </Fragment>

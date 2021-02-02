@@ -16,5 +16,12 @@
     align-items: stretch;
     flex-direction: column;
     justify-content: space-around;
+    z-index: 1;
 
+}
+
+.posBlogTitle{
+    z-index: 3;
+    position: absolute;
+    top: 0;
 }

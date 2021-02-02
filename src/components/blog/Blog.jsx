@@ -16,23 +16,71 @@ import actionLinkCss from '../actionLink/actionlink.module.css';
 const Blog = () => {
     const { fontAvenir, fontProN, fz20, fClr, trucontactBGLight } = bodyCss;
     const { downExpect } = actionLinkCss;
-    const { blogSubTitle, fz36, fz14, distributeDiv } = blogCss;
+    const { blogSubTitle, fz36, fz14, distributeDiv, posBlogTitle } = blogCss;
 
     return (<Fragment>
         <section className="my-5">
-            <BodyTitle content={"BLOG"} />
+            <div className="my-5">
+                <BodyTitle content={"BLOG"} />
+            </div>
 
-            <div className="col-md-10 offset-md-1">
+            <div className="col-md-10 offset-md-1  mb-5">
                 <div className={`row ${trucontactBGLight}`}>
                     <div className="col-md"><img src={tree} alt="tree" /></div>
                     <div className="col-md">
                         <div className={`${distributeDiv} px-4 `}>
-                            <h6 className={` ${blogSubTitle} ${fz14} ${fontAvenir}`}>JANUARY 2021</h6>
+                            <h6 className={` ${blogSubTitle} ${posBlogTitle} ${fz14} ${fontAvenir} mt-4`}>JANUARY 2021</h6>
 
-                            <h1 className={`${fontAvenir} font-weight-bold ${fz36} ${fClr}`}>2020 at a glance: yearly
+                            <div>
+                                <h1 className={`${fontAvenir} font-weight-bold ${fz36} ${fClr}`}>2020 at a glance: yearly review </h1>
+                                <h5 className={`${fontProN} ${fz20} mt-5`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices egestas adipiscing.</h5>
+
+                            </div>
+                            <div>
+                                <ActionLink title={"READ MORE"} icon={<div className={downExpect}>&rarr;</div>} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="col-md-10 offset-md-1  mb-5">
+                <div className={`row ${trucontactBGLight}`}>
+                    <div className="col-md"><img src={fire} alt="fire" /></div>
+                    <div className="col-md">
+                        <div className={`${distributeDiv} px-4 `}>
+                            <h6 className={` ${blogSubTitle} ${posBlogTitle} ${fz14} ${fontAvenir} mt-4`}>DECEMBER 2020</h6>
+
+                            <div>
+                                <h1 className={`${fontAvenir} font-weight-bold ${fz36} ${fClr}`}>Q3 at a glance: quarterly
+                                review</h1>
+                                <h5 className={`${fontProN} ${fz20} mt-5`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices egestas adipiscing.</h5>
+
+                            </div>
+                            <div>
+                                <ActionLink title={"READ MORE"} icon={<div className={downExpect}>&rarr;</div>} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="col-md-10 offset-md-1  mb-5">
+                <div className={`row ${trucontactBGLight}`}>
+                    <div className="col-md"><img src={buildingScape} alt="buildingScape" /></div>
+                    <div className="col-md">
+                        <div className={`${distributeDiv} px-4 `}>
+                            <h6 className={` ${blogSubTitle} ${posBlogTitle} ${fz14} ${fontAvenir} mt-4`}>SEPTEMBER 2020</h6>
+
+                            <div>
+                                <h1 className={`${fontAvenir} font-weight-bold ${fz36} ${fClr}`}>Q3 at a glance: quarterly
+                                review
 review</h1>
-                            <h5 className={`${fontProN} ${fz20}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices egestas adipiscing.</h5>
+                                <h5 className={`${fontProN} ${fz20} mt-5`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices egestas adipiscing.</h5>
 
+                            </div>
                             <div>
                                 <ActionLink title={"READ MORE"} icon={<div className={downExpect}>&rarr;</div>} />
                             </div>
@@ -41,7 +89,7 @@ review</h1>
                 </div>
             </div>
         </section>
-    </Fragment>);
+    </Fragment >);
 }
 
 export default Blog;
