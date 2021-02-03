@@ -103,3 +103,33 @@ font-weight: 600;
       float: none;
   } 
 }
+
+
+
+
+
+
+.arrowParen{
+  /* position: absolute;
+  top: 6px;
+  left: 176px;
+  right: 0; */
+  transition-timing-function: ease-out;
+  transition: left 1s;
+}
+
+img.arrowLogo{
+  width: 25px;
+  margin-left: 15px;
+  margin-bottom: 7px;
+}
+
+.parentRead{
+  position: relative;
+}
+
+.parentRead:hover  .arrowParen{ 
+  /* left: 157px; */
+  margin-left: -15px;
+  transform: translateX(2px);
+}

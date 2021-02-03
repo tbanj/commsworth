@@ -43,3 +43,26 @@ h4.serviceTitle {
 
 
 
+.arrowParen{
+    position: absolute;
+    top: -3px;
+    /* left: 0; */
+    right: 0;
+    transition-timing-function: ease-out;
+    transition: left 1s;
+  }
+  
+  img.arrowLogo{
+    width: 25px;
+    margin-left: 15px;
+  }
+  
+  .parentRead {
+      position: relative;
+  }
+  
+  .parentRead:hover  .arrowLogo{ 
+    margin-right: 8px;
+    transform: translateX(2px);
+  }
+

@@ -4,6 +4,8 @@ import BodyTitle from '../bodyTitle/BodyTitle';
 import ActionLink from '../actionLink/ActionLink';
 import tree from '../../assets/edit/tree.png';
 import testimony from '../../assets/edit/testimony.png';
+import rightArrow from '../../assets/right-arrow_g_n.svg';
+
 import fire from '../../assets/edit/fire.png';
 import buildingScape from '../../assets/edit/buildings_landscape.png';
 import bodyCss from '../Body/bodyhome.module.css';
@@ -16,7 +18,8 @@ import actionLinkCss from '../actionLink/actionlink.module.css';
 const Blog = () => {
     const { fontAvenir, fontProN, fz20, fClr, trucontactBGLight } = bodyCss;
     const { downExpect } = actionLinkCss;
-    const { blogSubTitle, fz36, fz14, distributeDiv, posBlogTitle } = blogCss;
+    const { blogSubTitle, fz36, fz14, distributeDiv, posBlogTitle, arrowLogo, arrowParen,
+        parentRead } = blogCss;
 
     return (<Fragment>
         <section className="my-5">
@@ -36,8 +39,11 @@ const Blog = () => {
                                 <h5 className={`${fontProN} ${fz20} mt-5`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices egestas adipiscing.</h5>
 
                             </div>
-                            <div>
-                                <ActionLink title={"READ MORE"} icon={<div className={downExpect}>&rarr;</div>} />
+                            <div className={parentRead}>
+
+                                <div className=""><ActionLink title={"READ MORE"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                    <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
+                                </div>} /></div>
                             </div>
                         </div>
                     </div>
@@ -58,8 +64,11 @@ const Blog = () => {
                                 <h5 className={`${fontProN} ${fz20} mt-5`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices egestas adipiscing.</h5>
 
                             </div>
-                            <div>
-                                <ActionLink title={"READ MORE"} icon={<div className={downExpect}>&rarr;</div>} />
+                            <div className={parentRead}>
+
+                                <div className=""><ActionLink title={"READ MORE"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                    <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
+                                </div>} /></div>
                             </div>
                         </div>
                     </div>
@@ -81,8 +90,11 @@ review</h1>
                                 <h5 className={`${fontProN} ${fz20} mt-5`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices egestas adipiscing.</h5>
 
                             </div>
-                            <div>
-                                <ActionLink title={"READ MORE"} icon={<div className={downExpect}>&rarr;</div>} />
+                            <div className={parentRead}>
+
+                                <div className=""><ActionLink title={"READ MORE"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                    <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
+                                </div>} /></div>
                             </div>
                         </div>
                     </div>

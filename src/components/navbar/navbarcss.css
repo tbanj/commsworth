@@ -211,7 +211,7 @@ a.btn-success {
 
 .arrowParen{
   position: absolute;
-  top: 7px;
+  top: 6px;
   left: 95px;
   right: 0;
   transition-timing-function: ease-out;
@@ -219,12 +219,17 @@ a.btn-success {
 }
 
 img.arrowLogo{
-  width: 20px;
+  width: 30px;
+  margin-left: 15px;
+}
+
+img.arrowLogoDown{
+  width: 22px;
   margin-left: 15px;
   right: 0;
 }
 
 .btnNav:hover  .arrowParen{ 
-  left: 72px;
+  left: 77px;
   transform: translateX(2px);
 }

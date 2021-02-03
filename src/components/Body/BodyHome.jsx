@@ -8,6 +8,8 @@ import Fade from 'react-reveal/Fade';
 import ActionLink from '../actionLink/ActionLink';
 import ourStory1 from '../../assets/our-story-1-12.png';
 import ourStory2 from '../../assets/our-story-2.png';
+import rightArrow from '../../assets/right-arrow_g_n.svg';
+import indexCss from '../../assets/css/index.module.css';
 import bodyCss from './bodyhome.module.css';
 import actionLinkCss from '../actionLink/actionlink.module.css';
 import Partners from '../partners/Partners';
@@ -16,7 +18,7 @@ import Blog from '../blog/Blog';
 
 
 const { abtDash, fz20, fz24, centerD, fClr, about, aboutContent, fClrDark, aboutSec, ImgOurStory2, truBlue,
-  fontProN, fontAvenir, trucontactBGLight } = bodyCss;
+  fontProN, fontAvenir, trucontactBGLight, arrowParen, arrowLogo, parentRead } = bodyCss;
 const { downExpect } = actionLinkCss;
 const BodyHome = () => (
   <Fragment>
@@ -70,7 +72,11 @@ const BodyHome = () => (
               <div className="mx-5">
 
                 <p className={`${fz20} ${aboutContent} ${fontProN} ${fClrDark}`}>TCSRN was founded in 2006, and carried out what many have come to acknowledge as trail blazing spadework that led to a rapid growth of what has become a vibrant and viable corporate social responsibility and sustainability industry in Nigeria, and Africa.</p>
-                <ActionLink title={"READ FULL STORY"} icon={<div className={downExpect}>&rarr;</div>} />
+                <div className={parentRead}>
+                  <ActionLink title={"READ FULL STORY"} icon={<div className={`${arrowParen} ${centerD}`}>
+                    <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
+                  </div>} />
+                </div>
               </div>
             </div>
           </section>

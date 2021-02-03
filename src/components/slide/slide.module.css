@@ -3,6 +3,12 @@
   font-style: normal;
 } */
 
+img.arrowLogo{
+  width: 25px;
+  margin-left: 15px;
+  right: 0;
+}
+
 .carousel {
     max-height: 750px;
     min-height: 300px;

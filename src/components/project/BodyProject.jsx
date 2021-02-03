@@ -7,7 +7,7 @@ import { mousefile } from './mousefile';
 import maskUp from '../../assets/mask-up.png';
 import saveChild from '../../assets/save-child.png';
 import sera from '../../assets/sera.png';
-import rightArrow from '../../assets/right-arrow.svg';
+import rightArrow from '../../assets/right-arrow_n.svg';
 import bodyPoject from './bodypoject.module.css';
 import indexCss from '../../assets/css/index.module.css';
 class BodyPoject extends Component {

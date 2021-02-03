@@ -6,12 +6,15 @@ import consultServ from '../../assets/consulting-serv.png';
 import imaServ from '../../assets/ima-serv.png';
 import engageServ from '../../assets/engage-design.png';
 import strategyServ from '../../assets/strategy.png';
+import rightArrow from '../../assets/right-arrow_g_n.svg';
 import bodyCss from '../Body/bodyhome.module.css';
 import actionLinkCss from '../actionLink/actionlink.module.css';
 import bodyServCss from './bodyService.module.css';
 import indexCss from '../../assets/css/index.module.css';
 
-const { bs, fzC, serviceTitle, serviceContent, borderRad, flexFloatRight, imgWrapper, innerImg } = bodyServCss;
+
+
+const { bs, fzC, serviceTitle, serviceContent, borderRad, flexFloatRight, imgWrapper, innerImg, arrowLogo, arrowParen, parentRead } = bodyServCss;
 const { fz20, centerD, fClr, aboutContent, fz18, fClrDark, truBlue, fz24, fontProN, fontAvenir, contentCrl } = bodyCss;
 const { downExpect } = actionLinkCss;
 const { remPadLR } = indexCss;
@@ -41,8 +44,12 @@ const BodyService = () => (
                                     <h6 className={`${fz18} ${fzC} ${serviceContent}  ${fontAvenir}`}>
                                         Nothing excites us like an opportunity to help our clients make those key decisions that marries their business ideals and sustainability in a way helps them innovate in the areas of new products, ideas and service that keeps them ahead of competition.
                             </h6>
-                                    <div className={`mt-3 mb-4 ${flexFloatRight}`}>
-                                        <ActionLink title={"WORK WITH US"} icon={<div className={downExpect}>&rarr;</div>} />
+                                    <div className={`mt-3 mb-4  ${parentRead}`}>
+                                        <div className={`${flexFloatRight} mr-5`}>
+                                            <ActionLink title={"WORK WITH US"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                                <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
+                                            </div>} />
+                                        </div>
                                     </div>
                                 </div>
 
@@ -61,8 +68,12 @@ const BodyService = () => (
                                     <h4 className={`text-white ${fz24} ${serviceTitle} ${fontAvenir}`}>Impact Measurement & Accessment</h4>
                                     <h6 className={`${fz18} ${fzC} ${serviceContent} ${fontAvenir}`}>
                                         At TCSRN, we help decision-makers and policy-makers decide what actions they should or should not take to make society more sustainable, and also ensure that plans and activities makes an optimal contribution to sustainable development.</h6>
-                                    <div className={`mt-3 mb-4 ${flexFloatRight}`}>
-                                        <ActionLink title={"WORK WITH US"} icon={<div className={downExpect}>&rarr;</div>} />
+                                    <div className={`mt-3 mb-4 ${parentRead}`}>
+                                        <div className={`${flexFloatRight} mr-5`}>
+                                            <ActionLink title={"WORK WITH US"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                                <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
+                                            </div>} />
+                                        </div>
                                     </div>
                                 </div>
 
@@ -83,8 +94,12 @@ const BodyService = () => (
                                     <h4 className={`text-white ${fz24} ${serviceTitle} ${fontAvenir}`}>Engagement Design</h4>
                                     <h6 className={`${fz18} ${fzC} ${serviceContent} ${fontAvenir}`}>
                                         Consumers have finite attention spans and limited, as such, gaining their attention as quickly as possible and trying to establish the bonding capital with them is vital. We are adept at devising the surest and the most potent of reaching your target audience and ensuring optimized bonding that build mutual trust. </h6>
-                                    <div className={`mt-3 mb-4 ${flexFloatRight}`}>
-                                        <ActionLink title={"WORK WITH US"} icon={<div className={downExpect}>&rarr;</div>} />
+                                    <div className={`mt-3 mb-4 ${parentRead}`}>
+                                        <div className={`${flexFloatRight} mr-5`}>
+                                            <ActionLink title={"WORK WITH US"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                                <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
+                                            </div>} />
+                                        </div>
                                     </div>
                                 </div>
 
@@ -104,8 +119,12 @@ const BodyService = () => (
                                     <h4 className={`text-white ${fz24} ${serviceTitle} ${fontAvenir}`}>Strategy</h4>
                                     <h6 className={`${fz18} ${fzC} ${serviceContent} ${fontAvenir}`}>
                                         At TCSRN, we provide service that assist our client to set new agendas and reengineer their business models that boost their chances at a sustainable future in which innovation propels their productivity.</h6>
-                                    <div className={`mt-3 mb-4 ${flexFloatRight}`}>
-                                        <ActionLink title={"WORK WITH US"} icon={<div className={downExpect}>&rarr;</div>} />
+                                    <div className={`mt-3 mb-4 ${parentRead}`}>
+                                        <div className={`${flexFloatRight} mr-5`}>
+                                            <ActionLink title={"WORK WITH US"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                                <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
+                                            </div>} />
+                                        </div>
                                     </div>
                                 </div>
 

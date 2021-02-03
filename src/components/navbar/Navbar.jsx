@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import MdMenu from 'react-ionicons/lib/MdMenu';
 import MdClose from 'react-ionicons/lib/MdClose';
 import logo from '../../assets/logo_2.svg';
-import rightArrow from '../../assets/right-arrow.svg';
+import rightArrow from '../../assets/right-arrow_n.svg';
 
 import navbarCss from './navbar.module.css';
 import indexCss from '../../assets/css/index.module.css';

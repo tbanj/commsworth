@@ -10,6 +10,7 @@ import gtb from '../../assets/edit/gtb.png';
 import lafarge from '../../assets/edit/lafarge.png';
 import nestle from '../../assets/edit/nestle.png';
 import testimony from '../../assets/edit/testimony.png';
+import rightArrow from '../../assets/right-arrow_g_n.svg';
 
 import bodyCss from '../Body/bodyhome.module.css';
 import partnerCss from './partner.module.css';
@@ -20,7 +21,8 @@ const Partners = () => {
     const { trucontactBGLight, fontProN, contentCrl, aboutContent, fClrDark, fontAvenir, fz18,
         fz16, fClr, testimonyContent, fz24, fClrLight } = bodyCss;
     const { downExpect } = ActionLinkCss;
-    const { containerPartner, marquee, img1, w40, minHeight, imgPartnerAvatar } = partnerCss;
+    const { containerPartner, marquee, img1, w40, minHeight, imgPartnerAvatar, arrowParen, arrowLogo,
+        parentRead } = partnerCss;
     return (<Fragment>
         <section className={`my-4 ${trucontactBGLight}`}>
             <div className="col-md-10 offset-md-1 my-5">
@@ -59,7 +61,14 @@ const Partners = () => {
                         <h4 className={`${fontAvenir} ${fClrDark} ${testimonyContent} ${fz24}`}>{`"Working with TruCSR was the best decision i made for my business, most people underestimate the importance of Social responsibilty in this country, i’m glad we consulted TruCSR"`}</h4>
                         <h6 className={` ${fontAvenir} mt-5 ${fClr} ${fz18} font-weight-bold`}>Mr Kelechi Onuacho</h6>
                         <p className={`${fontAvenir} ${fClrLight} ${fz16}`}>CEO, Nestle</p>
-                        <div className="float-right"><ActionLink title={"SEE MORE TESTIMONIALS"} icon={<div className={downExpect}>&rarr;</div>} /></div>
+                        <div className={`float-right `}>
+                            <div className={`${parentRead}`}>
+                                <div className={`mr-5  `}><ActionLink title={"SEE MORE TESTIMONIALS"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                    <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
+                                </div>} /></div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
