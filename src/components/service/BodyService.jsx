@@ -46,7 +46,7 @@ const BodyService = () => (
                             </h6>
                                     <div className={`mt-3 mb-4  ${parentRead}`}>
                                         <div className={`${flexFloatRight} mr-5`}>
-                                            <ActionLink title={"WORK WITH US"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                            <ActionLink title={"WORK WITH US"} titleClass={` mr-3`} icon={<div className={`${arrowParen} ${downExpect}`}>
                                                 <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
                                             </div>} />
                                         </div>
@@ -70,7 +70,7 @@ const BodyService = () => (
                                         At TCSRN, we help decision-makers and policy-makers decide what actions they should or should not take to make society more sustainable, and also ensure that plans and activities makes an optimal contribution to sustainable development.</h6>
                                     <div className={`mt-3 mb-4 ${parentRead}`}>
                                         <div className={`${flexFloatRight} mr-5`}>
-                                            <ActionLink title={"WORK WITH US"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                            <ActionLink title={"WORK WITH US"} titleClass={` mr-3`} icon={<div className={`${arrowParen} ${downExpect}`}>
                                                 <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
                                             </div>} />
                                         </div>
@@ -96,7 +96,7 @@ const BodyService = () => (
                                         Consumers have finite attention spans and limited, as such, gaining their attention as quickly as possible and trying to establish the bonding capital with them is vital. We are adept at devising the surest and the most potent of reaching your target audience and ensuring optimized bonding that build mutual trust. </h6>
                                     <div className={`mt-3 mb-4 ${parentRead}`}>
                                         <div className={`${flexFloatRight} mr-5`}>
-                                            <ActionLink title={"WORK WITH US"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                            <ActionLink title={"WORK WITH US"} titleClass={` mr-3`} icon={<div className={`${arrowParen} ${downExpect}`}>
                                                 <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
                                             </div>} />
                                         </div>
@@ -121,7 +121,7 @@ const BodyService = () => (
                                         At TCSRN, we provide service that assist our client to set new agendas and reengineer their business models that boost their chances at a sustainable future in which innovation propels their productivity.</h6>
                                     <div className={`mt-3 mb-4 ${parentRead}`}>
                                         <div className={`${flexFloatRight} mr-5`}>
-                                            <ActionLink title={"WORK WITH US"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                            <ActionLink title={"WORK WITH US"} titleClass={` mr-3`} icon={<div className={`${arrowParen} ${downExpect}`}>
                                                 <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
                                             </div>} />
                                         </div>

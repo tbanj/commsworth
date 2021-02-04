@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import actionLinkCss from './actionlink.module.css';
 
 const { linkCaption, caption } = actionLinkCss;
-const ActionLink = ({ title, icon }) => (
+const ActionLink = ({ title, icon, titleClass = '' }) => (
     <div className="d-flex">
-        <a aria-current="page" className={`${caption} ${linkCaption}`} href="/" >{title}</a>
+        <a aria-current="page" className={`${caption} ${linkCaption} ${titleClass}`} href="/" >{title}</a>
         {icon}
     </div>
 )

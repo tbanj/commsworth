@@ -46,7 +46,7 @@ const Slide = () => (
 
       </Carousel.Caption>
     </Carousel.Item >
-    < Carousel.Item className="carouselitem" >
+    {/* < Carousel.Item className="carouselitem" >
       <div id="carousel-overlay" >
         <div id="text"></div>
       </div>
@@ -69,7 +69,7 @@ const Slide = () => (
           <div className={downExpect}><img className="arrowLogo" src={rightArrow} alt="right-arrow" /></div>
         </div>
       </Carousel.Caption>
-    </  Carousel.Item>
+    </  Carousel.Item> */}
 
   </Carousel >
 );

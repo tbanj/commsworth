@@ -115,7 +115,7 @@ font-weight: 600;
   left: 176px;
   right: 0; */
   transition-timing-function: ease-out;
-  transition: left 1s;
+  transition: margin 1s, transform 1s;
 }
 
 img.arrowLogo{
