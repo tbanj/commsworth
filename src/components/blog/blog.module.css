@@ -33,12 +33,12 @@
     /* position: absolute;
     top: -3px;
     right: 0; */
-    transition-timing-function: ease-out;
-    transition: left 1s;
+    transition-timing-function: ease-in-out;
+    transition: margin 1s;
   }
   
   img.arrowLogo{
-    width: 25px;
+    width: 30px;
     margin-left: 15px;
   }
   
@@ -46,7 +46,7 @@
       position: relative;
   }
   
-  .parentRead:hover  .arrowLogo{ 
-    margin-left: 0px;
-    transform: translateX(2px);
+  .parentRead:hover  .arrowParen{ 
+    margin-left: -17px;
+    /* transform: translateX(2px); */
   }

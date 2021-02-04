@@ -49,7 +49,7 @@ h4.serviceTitle {
     /* left: 0; */
     right: 0;
     transition-timing-function: ease-in-out;
-    transition: margin 1s, transform .7s;
+    transition: margin 1s;
     /* margin-left: 10px; */
   }
   
@@ -63,7 +63,7 @@ h4.serviceTitle {
   }
   
   .parentRead:hover  .arrowParen{ 
-    margin-right: 15px;
-    transform: translateX(3px);
+    margin-right: 11px;
+    /* transform: translateX(2px); */
   }
 

@@ -68,11 +68,11 @@ letter-spacing: 0.01em;
   top: -3px;
   right: 0;
   transition-timing-function: ease-out;
-  transition: left 1s;
+  transition: margin 1s;
 }
 
 img.arrowLogo{
-  width: 25px;
+  width: 30px;
   margin-left: 15px;
 }
 
@@ -80,7 +80,7 @@ img.arrowLogo{
     position: relative;
 }
 
-.parentRead:hover  .arrowLogo{ 
-  margin-right: 8px;
-  transform: translateX(2px);
+.parentRead:hover  .arrowParen{ 
+  margin-right: 13px;
+  /* transform: translateX(2px); */
 }

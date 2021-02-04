@@ -115,11 +115,11 @@ font-weight: 600;
   left: 176px;
   right: 0; */
   transition-timing-function: ease-out;
-  transition: margin 1s, transform 1s;
+  transition: margin 1s,;
 }
 
 img.arrowLogo{
-  width: 25px;
+  width: 30px;
   margin-left: 15px;
   margin-bottom: 7px;
 }
@@ -131,5 +131,5 @@ img.arrowLogo{
 .parentRead:hover  .arrowParen{ 
   /* left: 157px; */
   margin-left: -15px;
-  transform: translateX(2px);
+  /* transform: translateX(2px); */
 }

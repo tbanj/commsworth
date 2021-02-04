@@ -63,7 +63,7 @@ const Partners = () => {
                         <p className={`${fontAvenir} ${fClrLight} ${fz16}`}>CEO, Nestle</p>
                         <div className={`float-right `}>
                             <div className={`${parentRead}`}>
-                                <div className={`mr-5  `}><ActionLink title={"SEE MORE TESTIMONIALS"} icon={<div className={`${arrowParen} ${downExpect}`}>
+                                <div className={`mr-5  `}><ActionLink title={"SEE MORE TESTIMONIALS"} titleClass={`mr-3`} icon={<div className={`${arrowParen} ${downExpect}`}>
                                     <img className={arrowLogo} src={rightArrow} alt="right-arrow" />
                                 </div>} /></div>
                             </div>
