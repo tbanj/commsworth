@@ -85,12 +85,22 @@ a.carousel-control-next {
 } */
 
 #carousel-overlay {
-  background-image: url('../../assets/overlay-img.png');
+    /* background-image: url('../../assets/overlay-img.png'); */
+    /* to make image responsive on carousel make use of background or background-color */
+    background: radial-gradient(77.19% 288.38% at 77.19% 45.23%, rgba(19, 13, 37, 0.41) 5.02%, rgba(19, 13, 37, 0.88) 33.62%, #130D25 69.39%, #130D25 100%);
     position: absolute;
     top: 0;
-    left: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
     width: 100%;
-    height: 100%
+    height: 100%;
+    z-index: 2;
+}
+
+
+#div-overlay{
+ 
 }
 
 .cta-about{

@@ -1,4 +1,4 @@
-import React, { Component, Fragment, Suspense, lazy } from 'react';
+import React, { Component, Fragment, Suspense } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { ToastContainer } from "react-toastify";

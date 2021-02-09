@@ -15,7 +15,7 @@ import indexCss from '../../assets/css/index.module.css';
 
 
 const { bs, fzC, serviceTitle, serviceContent, borderRad, flexFloatRight, imgWrapper, innerImg, arrowLogo, arrowParen, parentRead } = bodyServCss;
-const { fz20, centerD, fClr, aboutContent, fz18, fClrDark, truBlue, fz24, fontProN, fontAvenir, contentCrl } = bodyCss;
+const { fz20, centerD, aboutContent, fz18, fClrDark, truBlue, fz24, fontProN, fontAvenir, contentCrl } = bodyCss;
 const { downExpect } = actionLinkCss;
 const { remPadLR } = indexCss;
 const BodyService = () => (

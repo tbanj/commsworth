@@ -21,7 +21,7 @@ const Partners = () => {
     const { trucontactBGLight, fontProN, contentCrl, aboutContent, fClrDark, fontAvenir, fz18,
         fz16, fClr, testimonyContent, fz24, fClrLight } = bodyCss;
     const { downExpect } = ActionLinkCss;
-    const { containerPartner, marquee, img1, w40, minHeight, imgPartnerAvatar, arrowParen, arrowLogo,
+    const { containerPartner, marquee, w40, minHeight, imgPartnerAvatar, arrowParen, arrowLogo,
         parentRead } = partnerCss;
     return (<Fragment>
         <section className={`my-4 ${trucontactBGLight}`}>

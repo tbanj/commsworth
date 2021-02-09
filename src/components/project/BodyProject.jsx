@@ -13,8 +13,8 @@ import indexCss from '../../assets/css/index.module.css';
 class BodyPoject extends Component {
 
     render() {
-        const { slidepro, imgSlide1, imgSlide2, imgSlide3, imgSlide4, contentPlacement,
-            projectTitle, contentPlacePro, posContentPlacePro, projectContent, fl1, mobileProject,
+        const { slidepro,
+            projectTitle, contentPlacePro, posContentPlacePro, projectContent, mobileProject,
             bigscreenProject, mobileMiniProject, mobileMiniBG } = bodyPoject;
         const { remPadLR, nvbtn } = indexCss;
         return (
